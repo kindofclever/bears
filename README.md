@@ -63,3 +63,7 @@ You find solutions to following problems:
 
 
 3. **Reverse Linked List** -> The problem: [see here](https://leetcode.com/problems/reverse-linked-list/) -> The solution -> reverseLinkedList.js
+
+
+4. **Longest common prefix** -> The problem: [see here](https://leetcode.com/problems/longest-common-prefix/) -> The solution -> longestCommonPrefix.js
+
