@@ -3,7 +3,7 @@
 ## Knowledge that helps understanding LeetCode challenges
 
 ### Recursion 
-A function is called recursive when it calls itself. Here is an example of of a non recursive function turned into a recursive one.
+A function is called recursive when it calls itself. Here are two example of non recursive functions turned into a recursive ones.
 
 ```
 const countDown = (number) => {
@@ -22,10 +22,30 @@ const countDownRecursive = (number) => {
     countDownRecursive(number - 1);
 };
 
+------
+
+const sumUp = (number) => {
+  let sum = 0;
+  for (i = 1; i <= number; i++) {
+    sum += i;
+  }
+  return sum;
+};
+
+const sumUpRecursive = (number, total = 0) => {
+    if (number <= 0) {
+        return total;
+    }
+    return sumUpRecursive(number - 1, total + number);
+};
+
 ```
 
-To prevent the function from running endlessly it needs a break out clause at the beginning of its body. 
+To prevent the function from running endlessly it needs a breakout clause at the beginning of its body. If this clause isn´t met, it will run again and again, because the function calls itself.
 
+When the statement in the breakout clause is met, the return keyword will end the execution.
+
+In the second example we pass in a parameter with a default value to give the function a place to store its calculations. This is a way of memoization.
 
 
 
