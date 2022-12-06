@@ -5,6 +5,8 @@
 ### Recursion 
 A function is called recursive when it calls itself. Here are two example of non recursive functions turned into a recursive ones.
 
+1. example
+
 ```
 const countDown = (number) => {
   for (i = number; i >= 0; i--) {
@@ -22,8 +24,11 @@ const countDownRecursive = (number) => {
     countDownRecursive(number - 1);
 };
 
-------
+```
 
+2. example
+
+```
 const sumUp = (number) => {
   let sum = 0;
   for (i = 1; i <= number; i++) {
