@@ -1,7 +1,5 @@
 # Kata-week - learning about algos
-
 ## Knowledge that helps understanding LeetCode challenges
-
 ### Recursion 
 A function is called recursive when it calls itself. Here are two example of non recursive functions turned into a recursive ones.
 
@@ -48,10 +46,14 @@ const sumUpRecursive = (number, total = 0) => {
 
 To prevent the function from running endlessly it needs a breakout clause at the beginning of its body. If this clause isn´t met, it will run again and again, because the function calls itself.
 
-When the statement in the breakout clause is met, the return keyword will end the execution.
+When the statement in the breakout clause is met, the return keyword will end the execution. If there is no breakout clause the function will cause a stack overflow at one point.
 
 In the second example we pass in a parameter with a default value to give the function a place to store its calculations. This is a way of memoization.
+### Iteration
 
+A function is call iterative when there is a loop (or repetition).
+
+### Big-o notation 
 
 
 You find solutions to following problems:
