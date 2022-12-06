@@ -9,7 +9,7 @@ Each time we can either take 1 step or 2 step. We need to find out in how many w
 
 ________
 
-Here you can find the in detail problem: https://leetcode.com/problems/climbing-stairs/submissions/
+Here you can find the in detail problem: https://leetcode.com/problems/climbing-stairs/
 
 This is a very good resource to the problem https://www.youtube.com/watch?v=Y0lT9Fck7qI
 
