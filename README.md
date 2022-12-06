@@ -55,7 +55,12 @@ A function is call iterative when there is a loop (or repetition).
 
 ### Big-o notation 
 
-Big-o is simplified the analysis to an algorithms efficiency. It's a way of being able to compare the time and space a function needs to run.
+Big-o is simplified the analysis to an algorithms efficiency. It's a way of being able to compare the time and space a function needs to run. [Here you can find a good video](https://www.youtube.com/watch?v=itn09C2ZB9Y).
+
+### ListNodes 
+
+![Descriptive Image of Linked List](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2013/03/Linkedlist.png)
+
 
 
 You find solutions to following problems:
