@@ -1,5 +1,33 @@
-# kata-week
-PGP Kata week, learning about algos.
+# Kata-week - learning about algos
+
+## Knowledge that helps understanding LeetCode challenges
+
+### Recursion 
+A function is called recursive when it calls itself. Here is an example of of a non recursive function turned into a recursive one.
+
+```
+const countDown = (number) => {
+  for (i = number; i >= 0; i--) {
+    console.log(i);
+  }
+  console.log('Happy new year!');
+};
+
+const countDownRecursive = (number) => {
+    if (number <= 0) {
+        console.log('Happy new year!');
+        return;
+    }
+    console.log(number); 
+    countDownRecursive(number - 1);
+};
+
+```
+
+To prevent the function from running endlessly it needs a break out clause at the beginning of its body. 
+
+
+
 
 You find solutions to following problems:
 
