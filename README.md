@@ -1,7 +1,11 @@
 # Kata-week - learning about algos
+
 ## Knowledge that helps understanding LeetCode challenges
-### Recursion 
-A function is called recursive when it calls itself. Here are two example of non recursive functions turned into a recursive ones.
+
+### Recursion
+
+A function is called recursive when it calls itself. Here are two example of non
+recursive functions turned into a recursive ones.
 
 1. example
 
@@ -18,7 +22,7 @@ const countDownRecursive = (number) => {
         console.log('Happy new year!');
         return;
     }
-    console.log(number); 
+    console.log(number);
     countDownRecursive(number - 1);
 };
 
@@ -44,41 +48,60 @@ const sumUpRecursive = (number, total = 0) => {
 
 ```
 
-To prevent the function from running endlessly it needs a breakout clause at the beginning of its body. If this clause isn´t met, it will run again and again, because the function calls itself.
+To prevent the function from running endlessly it needs a breakout clause at the
+beginning of its body. If this clause isn´t met, it will run again and again,
+because the function calls itself.
 
-When the statement in the breakout clause is met, the return keyword will end the execution. If there is no breakout clause the function will cause a stack overflow at one point.
+When the statement in the breakout clause is met, the return keyword will end
+the execution. If there is no breakout clause the function will cause a stack
+overflow at one point.
 
-In the second example we pass in a parameter with a default value to give the function a place to store its calculations. This is a way of memoization.
+In the second example we pass in a parameter with a default value to give the
+function a place to store its calculations. This is a way of memoization.
+
 ### Iteration
 
 A function is call iterative when there is a loop (or repetition).
 
-### Big-o notation 
+### Big-o notation
 
-Big-o is simplified the analysis to an algorithms efficiency. It's a way of being able to compare the time and space a function needs to run. [Here you can find a good video](https://www.youtube.com/watch?v=itn09C2ZB9Y).
+Big-o is simplified the analysis to an algorithms efficiency. It's a way of
+being able to compare the time and space a function needs to run.
+[Here you can find a good video](https://www.youtube.com/watch?v=itn09C2ZB9Y).
 
-### ListNodes 
+### ListNodes
 
 ![Descriptive Image of Linked List](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2013/03/Linkedlist.png)
 
-In this video you can find a very good explanation of how to create and manipulate linked lists.
-
-
+In this video you can find a very good explanation of how to create and
+manipulate linked lists.
 
 ## Here you find solutions to five LeetCode challenges
 
-1. **Merge Two Sorted Lists** -> The problem: [see here](https://leetcode.com/problems/merge-two-sorted-lists/) -> The solution -> [see here](./mergeTwoSortedLists.js)
+1. **Merge Two Sorted Lists** -> The problem:
+   [see here](https://leetcode.com/problems/merge-two-sorted-lists/) -> The
+   solution -> [see here](./mergeTwoSortedLists.js)
 
+2. **Climbing Stairs** -> The problem:
+   [see here](https://leetcode.com/problems/climbing-stairs/) -> The solution ->
+   [see here](./mergeTwoSortedLists.js)
 
-2. **Climbing Stairs** -> The problem: [see here](https://leetcode.com/problems/climbing-stairs/) -> The solution -> [see here](./mergeTwoSortedLists.js)
+3. **Reverse Linked List** -> The problem:
+   [see here](https://leetcode.com/problems/reverse-linked-list/) -> The
+   solution -> [see here](./reverseLinkedList.js)
 
+4. **Longest common prefix** -> The problem:
+   [see here](https://leetcode.com/problems/longest-common-prefix/) -> The
+   solution -> [see here](./longestCommonPrefix.js)
 
+5. **Reverse Linked List** -> The problem:
+   [see here](https://leetcode.com/problems/reverse-linked-list/) -> The
+   solution -> [see here](./reverseLinkedList.js)
 
-3. **Reverse Linked List** -> The problem: [see here](https://leetcode.com/problems/reverse-linked-list/) -> The solution -> [see here](./reverseLinkedList.js)
+6. **Longest common prefix** -> The problem:
+   [see here](https://leetcode.com/problems/longest-common-prefix/) -> The
+   solution -> [see here] (./longestCommonPrefix.js)
 
-
-4. **Longest common prefix** -> The problem: [see here](https://leetcode.com/problems/longest-common-prefix/) -> The solution -> [see here](./longestCommonPrefix.js)
-
-
-5. **Validate binary search tree** -> The problem: [see here](https://leetcode.com/problems/validate-binary-search-tree/) -> The solution -> [see here](./validateBinarySearchTree.js)
-
+7. **Validate binary search tree** -> The problem:
+   [see here](https://leetcode.com/problems/validate-binary-search-tree/) -> The
+   solution -> validateBinarySearchTree.js
