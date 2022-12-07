@@ -76,3 +76,6 @@ You find solutions to following problems:
 
 4. **Longest common prefix** -> The problem: [see here](https://leetcode.com/problems/longest-common-prefix/) -> The solution -> longestCommonPrefix.js
 
+
+5. **Validate binary search tree** -> The problem: [see here](https://leetcode.com/problems/validate-binary-search-tree/) -> The solution -> validateBinarySearchTree.js
+
