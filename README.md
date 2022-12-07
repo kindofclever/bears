@@ -100,8 +100,8 @@ manipulate linked lists.
 
 6. **Longest common prefix** -> The problem:
    [see here](https://leetcode.com/problems/longest-common-prefix/) -> The
-   solution -> [see here] (./longestCommonPrefix.js)
+   solution -> [see here](./longestCommonPrefix.js)
 
 7. **Validate binary search tree** -> The problem:
    [see here](https://leetcode.com/problems/validate-binary-search-tree/) -> The
-   solution -> validateBinarySearchTree.js
+   solution -> [see here](./validateBinarySearchTree.js)
