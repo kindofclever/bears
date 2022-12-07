@@ -63,7 +63,7 @@ Big-o is simplified the analysis to an algorithms efficiency. It's a way of bein
 
 
 
-You find solutions to following problems:
+## Here you find solutions to five LeetCode challenges
 
 1. **Merge Two Sorted Lists** -> The problem: [see here](https://leetcode.com/problems/merge-two-sorted-lists/) -> The solution -> mergeTwoSortedLists.js
 
