@@ -61,6 +61,8 @@ Big-o is simplified the analysis to an algorithms efficiency. It's a way of bein
 
 ![Descriptive Image of Linked List](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2013/03/Linkedlist.png)
 
+In this video you can find a very good explanation of how to create and manipulate linked lists.
+
 
 
 ## Here you find solutions to five LeetCode challenges
@@ -75,7 +77,7 @@ Big-o is simplified the analysis to an algorithms efficiency. It's a way of bein
 3. **Reverse Linked List** -> The problem: [see here](https://leetcode.com/problems/reverse-linked-list/) -> The solution -> [see here](./reverseLinkedList.js)
 
 
-4. **Longest common prefix** -> The problem: [see here](https://leetcode.com/problems/longest-common-prefix/) -> The solution -> longestCommonPrefix.js
+4. **Longest common prefix** -> The problem: [see here](https://leetcode.com/problems/longest-common-prefix/) -> The solution -> [see here] (./longestCommonPrefix.js)
 
 
 5. **Validate binary search tree** -> The problem: [see here](https://leetcode.com/problems/validate-binary-search-tree/) -> The solution -> validateBinarySearchTree.js
