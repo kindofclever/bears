@@ -14,3 +14,16 @@ This is a very good resource to the problem https://www.youtube.com/watch?v=gJOg
 
 Below you find the solution to the LeetCode problem.
 */
+
+const longestCommonPrefix = (strs) => {
+  let prefix = '';
+  if (strs.length === 0) return prefix;
+  for (i = 0; i < strs[0].length; i++) {
+    const character = strs[0][i];
+    for (j = 0; j < strs.length; j++) {
+      if (strs[j][i] !== character) return prefix;
+    }
+    prefix = prefix + character;
+  }
+  return prefix;
+};
