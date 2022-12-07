@@ -68,10 +68,11 @@ Big-o is simplified the analysis to an algorithms efficiency. It's a way of bein
 1. **Merge Two Sorted Lists** -> The problem: [see here](https://leetcode.com/problems/merge-two-sorted-lists/) -> The solution -> [see here](./mergeTwoSortedLists.js)
 
 
-2. **Climbing Stairs** -> The problem: [see here](https://leetcode.com/problems/climbing-stairs/) -> The solution -> mergeTwoSortedLists.js
+2. **Climbing Stairs** -> The problem: [see here](https://leetcode.com/problems/climbing-stairs/) -> The solution -> [see here](./mergeTwoSortedLists.js)
 
 
-3. **Reverse Linked List** -> The problem: [see here](https://leetcode.com/problems/reverse-linked-list/) -> The solution -> reverseLinkedList.js
+
+3. **Reverse Linked List** -> The problem: [see here](https://leetcode.com/problems/reverse-linked-list/) -> The solution -> [see here](./reverseLinkedList.js)
 
 
 4. **Longest common prefix** -> The problem: [see here](https://leetcode.com/problems/longest-common-prefix/) -> The solution -> longestCommonPrefix.js
