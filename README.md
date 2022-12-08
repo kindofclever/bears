@@ -94,14 +94,6 @@ manipulate linked lists.
    [see here](https://leetcode.com/problems/longest-common-prefix/) -> The
    solution -> [see here](./longestCommonPrefix.js)
 
-5. **Reverse Linked List** -> The problem:
-   [see here](https://leetcode.com/problems/reverse-linked-list/) -> The
-   solution -> [see here](./reverseLinkedList.js)
-
-6. **Longest common prefix** -> The problem:
-   [see here](https://leetcode.com/problems/longest-common-prefix/) -> The
-   solution -> [see here](./longestCommonPrefix.js)
-
-7. **Validate binary search tree** -> The problem:
+5. **Validate binary search tree** -> The problem:
    [see here](https://leetcode.com/problems/validate-binary-search-tree/) -> The
    solution -> [see here](./validateBinarySearchTree.js)
