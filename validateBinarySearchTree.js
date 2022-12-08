@@ -59,6 +59,5 @@ const isValidBST = (root) => {
     prev = now;
     now = now.right;
   }
-
   return true;
 };
