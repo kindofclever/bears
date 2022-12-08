@@ -31,12 +31,12 @@ const longestCommonPrefix = (arrayOfStrings) => {
 // Longest common prefix solution with comments:
 
 const longestCommonPrefixWithComments = (arrayOfStrings) => {
-  // Guarding clause:Return early on empty input
+  // Guarding clause: Return early on empty input so that we don't run unneccessary code
   if (!arrayOfStrings.length) return '';
 
   // In this solution, I initially loop through the characters of the first string.
   // I'm using a for loop because it produces the fastest outcome which seems to be
-  // important on LeetCode. I think in frontend code id go for a forEach for more redability.
+  // important on LeetCode. I think in frontend code id go for a forEach for more readability.
 
   for (let i = 0; i <= arrayOfStrings[0].length; i++) {
     // Than I check if this character is present in the same position of every string
@@ -52,6 +52,9 @@ const longestCommonPrefixWithComments = (arrayOfStrings) => {
       return arrayOfStrings[0].slice(0, i);
     }
   }
-  // If the character is present the loop runs again until the characters don´t match anymore.
+  // If the character is present the loop runs again until the characters don´t match anymore
+  // and until the first string ends. First I thougth I should check the other strings as well
+  // but than I realized that even if the first string is the shortest one, it will not change
+  // the outcome of the function, because the longest prefix can not be longer than the shortest string.
   return arrayOfStrings[0];
 };
