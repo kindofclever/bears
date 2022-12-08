@@ -45,7 +45,7 @@ const mergeTwoLists = (list1, list2) => {
 };
 // ______________________________________________________________________________________
 
-// Longest common prefix solution with comments:
+// Merge two sorted list solution with comments:
 
 const mergeTwoListsWithComments = (list1, list2) => {
   // Initialise a new LinkedList with a dummy ListNode
@@ -88,3 +88,5 @@ const mergeTwoListsWithComments = (list1, list2) => {
 
   return headOfListOfLinkedNodes.next;
 };
+// Actually I think that there is a recursive solution to this problem as well.
+//But I didn´t find it yet or never will.
