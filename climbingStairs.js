@@ -56,7 +56,10 @@ const climbStairsWithComments = (n) => {
 
   if (n <= 0) return 0;
 
-  let a = 0;
+  // I start with one and one because even if there are no steps to climb,
+  // we can still climb the stairs in one way (by not climbing them at all).
+
+  let a = 1;
   let b = 1;
   let c = n;
 
